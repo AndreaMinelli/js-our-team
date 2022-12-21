@@ -6,7 +6,7 @@
 
 /* Generals */
 .container{
-    width: 900px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -17,18 +17,27 @@ body{
 
 main{
     background-color: rgb(245,245,241);
+    text-align: center;
 }
 
-/* Our Team */
+section{
+    padding: 1.5rem 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Our Team Header*/
 
 #our-team header{
-    text-align: center;
     width: 60%;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
     margin: 0 auto;
 }
 
-#our-team h4{
+#our-team header h3{
     color: black;
     margin-bottom: 1.5rem;
 }
@@ -36,4 +45,28 @@ main{
 #our-team p{
     line-height: 1.8rem;
 }
+
+/* Our Team Main */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 200px;
+}
+
+.row .col{
+    flex-basis: calc(100% / 3);
+    border: 1px solid black;
+    padding: 1.5rem 1rem;
+}
+
+.col .card{
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.card .worker{
+    padding: 1rem 0;
+}
+
 
