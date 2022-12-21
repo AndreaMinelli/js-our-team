@@ -47,3 +47,6 @@ const team = [
     image: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+//Targhettizzo gli elementi in pagina
+const row = document.querySelector("#our-team .row");
