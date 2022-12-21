@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generals */
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+body{
+    color: rgb(133,128,121);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    background-color: rgb(245,245,241);
+}
+
+/* Our Team */
+
+#our-team header{
+    text-align: center;
+    width: 60%;
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+
+#our-team h4{
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+#our-team p{
+    line-height: 1.8rem;
+}
+
