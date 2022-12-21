@@ -50,3 +50,28 @@ const team = [
 
 //Targhettizzo gli elementi in pagina
 const row = document.querySelector("#our-team .row");
+
+let cols = "";
+//Recupero gli elementi dell'array
+for (let worker of team) {
+  const col = `
+    <div class="col">
+        <div class="card">
+            <figure>
+                <img
+                    src="img/${worker.image}"
+                    alt="pics of ${worker.name}"
+                />
+            </figure>
+            <div class="worker">
+                <h3>${worker.name}</h3>
+                <p>${worker.role}</p>
+            </div>
+        </div>
+    </div>
+  `;
+
+  cols += col;
+}
+
+row.innerHTML = cols;
